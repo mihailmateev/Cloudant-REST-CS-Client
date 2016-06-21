@@ -14,7 +14,7 @@ namespace CloudantREST
         {
             var client = new RestClient();
             client.BaseUrl = new Uri("https://mikeamm.cloudant.com/pouchrecords");
-            client.Authenticator = new HttpBasicAuthenticator("mikeamm", "kanabis1972");
+            client.Authenticator = new HttpBasicAuthenticator("username", "password");
 
             var request = new RestRequest(Method.GET);
 
