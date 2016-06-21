@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudantREST", "CloudantREST\CloudantREST.csproj", "{FBAE2F05-1168-4743-AAF3-63CD011A9F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSharp.Net452", "RestSharp.Net452\RestSharp.Net452.csproj", "{353349A9-4E6C-4706-A1C4-8363EAE0DBF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSharp.Net35", "RestSharp\RestSharp.Net35.csproj", "{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBAE2F05-1168-4743-AAF3-63CD011A9F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAE2F05-1168-4743-AAF3-63CD011A9F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAE2F05-1168-4743-AAF3-63CD011A9F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAE2F05-1168-4743-AAF3-63CD011A9F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{353349A9-4E6C-4706-A1C4-8363EAE0DBF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{353349A9-4E6C-4706-A1C4-8363EAE0DBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{353349A9-4E6C-4706-A1C4-8363EAE0DBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{353349A9-4E6C-4706-A1C4-8363EAE0DBF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
